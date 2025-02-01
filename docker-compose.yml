@@ -1,7 +1,7 @@
 version: '3'
 services:
   code-server:
-    image: codercom/code-server:latest
+    image: ghcr.io/coder/code-server:4.96.4-39
     container_name: vscode-server
     restart: unless-stopped
     environment:
